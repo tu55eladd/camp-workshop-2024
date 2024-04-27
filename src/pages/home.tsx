@@ -1,7 +1,7 @@
 import {For} from 'solid-js';
 import {createSolidTable, flexRender, getCoreRowModel} from "@tanstack/solid-table";
 import {defaultColumns} from "./table";
-import {BudgetDataType,} from "../resources/regnskap.data";
+import {BudgetDataType,} from "../resources/budget.data";
 import {useRouteData} from "@solidjs/router";
 
 export default function Home() {
@@ -19,9 +19,8 @@ export default function Home() {
 
   return (
       <section class="bg-gray-100 text-gray-700 p-8">
-          <h1 class="text-2xl font-bold">Home</h1>
-          <p class="mt-4">This is the home page.</p>
-
+          <h1 class="text-2xl font-bold">Budget</h1>
+          <p class="my-4">This is the budget page.</p>
 
           <table>
               <thead>

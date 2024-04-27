@@ -15,19 +15,6 @@ if (import.meta.env.DEV && !(root instanceof HTMLElement)) {
 
 import('./mocks/browser').then(({ worker }) => {
   return worker.start()
-  /*
-  worker.start({
-      serviceWorker: {
-        url: "/public/mockServiceWorker.js",
-        options: {
-          scope: '/asdsa/asdas'
-        }
-      },
-      onUnhandledRequest: (req, print) => {
-        print.warning();
-      },
-    })
-    */
 }).then(() => {
     render(
         () => (

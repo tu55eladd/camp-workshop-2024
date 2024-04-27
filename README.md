@@ -40,10 +40,15 @@ Your app is ready to be deployed!
 
 You can deploy the `dist` folder to any static host provider (netlify, surge, now, etc.)
 
-## Oppgave
+## Workshop
 - Gå igjennom litt Solid
-- Lage input felt på table-cellene
+- Lage input felt på table-cellene (clickhandler, input, state-management)
   - Bonus for nice animasjon når man "åpner" en celle
+- Kunne legge til nye rader med utgifer/inntekter
 - Sende input til "backend" og rendre oppdaterte tall (resource)
+  - On-click array (solid-api) - for klikkbare list-items
 - Bruker loading state til å vise 
+  - Suspense -> resource
 - Backend blir for tregt! Lag optimistisk rendering
+  - Optimistic render (resource)
+
